@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_02Project.BusinessLogicLayer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="6.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\03Project.DataAccessLayer\03Project.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\04Project.ViewModel\04Project.ViewModel.csproj" />
+    <ProjectReference Include="..\05Project.DataTransferObject\05Project.DataTransferObject.csproj" />
+    <ProjectReference Include="..\06Project.Entities\06Project.Entities.csproj" />
+    <ProjectReference Include="..\07Project.GenericResult\07Project.GenericResult.csproj" />
+    <ProjectReference Include="..\08Project.Mapper\08Project.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

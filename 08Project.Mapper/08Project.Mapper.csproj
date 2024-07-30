@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_08Project.Mapper</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\04Project.ViewModel\04Project.ViewModel.csproj" />
+    <ProjectReference Include="..\05Project.DataTransferObject\05Project.DataTransferObject.csproj" />
+    <ProjectReference Include="..\06Project.Entities\06Project.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
